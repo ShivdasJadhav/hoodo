@@ -1,0 +1,33 @@
+{
+  "name": "hoodo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This project demonstrates how to create a Workout Planner application using the MERN (MongoDB, Express.js, React, Node.js) stack. Users can register, login, create custom workout routines and meal plans, and manage their daily entries.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "cookie-parser": "^1.4.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.3",
+    "morgan": "^1.10.0",
+    "helmet": "^7.1.0",
+    "nodemon": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivdasJadhav/hoodo.git"
+  },
+  "author": "ShivdasJadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivdasJadhav/hoodo/issues"
+  },
+  "homepage": "https://github.com/ShivdasJadhav/hoodo#readme"
+}
